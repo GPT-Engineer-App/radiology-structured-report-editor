@@ -13,8 +13,8 @@ const TextEditor = ({ value, onChange }) => {
   }));
 
   return (
-    <Box ref={drop} p={4} border="1px" borderColor="gray.200" borderRadius="md">
-      <ReactQuill value={value} onChange={onChange} />
+    <Box ref={drop} p={4} border="1px" borderColor="teal.500" borderRadius="md" bg="gray.800" color="white">
+      <ReactQuill value={value} onChange={onChange} theme="snow" />
     </Box>
   );
 };

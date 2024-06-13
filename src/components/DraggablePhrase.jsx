@@ -16,10 +16,11 @@ const DraggablePhrase = ({ phrase }) => {
       ref={drag}
       p={2}
       m={1}
-      bg={isDragging ? 'gray.300' : 'gray.100'}
+      bg={isDragging ? 'teal.600' : 'teal.500'}
       borderRadius="md"
       cursor="move"
       opacity={isDragging ? 0.5 : 1}
+      color="white"
     >
       {phrase}
     </Box>
